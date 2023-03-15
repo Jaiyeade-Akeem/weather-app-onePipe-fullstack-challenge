@@ -17,8 +17,4 @@ public class WeatherServiceImpl implements WeatherService {
         return openWeatherMapService.getWeatherData(city);
     }
 
-    @Override
-    public ResponseEntity<String> getWeatherDescriptionByCityName(String city) {
-        return openWeatherMapService.getWeatherDescription(city);
-    }
 }

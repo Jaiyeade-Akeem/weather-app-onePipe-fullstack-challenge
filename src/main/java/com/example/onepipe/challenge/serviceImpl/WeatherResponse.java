@@ -3,7 +3,7 @@ package com.example.onepipe.challenge.serviceImpl;
 import lombok.Data;
 import java.util.List;
 @Data
-public class WeatherResponseDTO1 {
+public class WeatherResponse {
 
     private CoordinatesDTO coord;
     private List<WeatherDTO> weather;
